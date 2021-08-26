@@ -1,0 +1,10 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Office Network.ETHERNET SWITCH,0,Common ST,root,none
+Office Network.ETHERNET SWITCH,0,Common ST,designated_port,Office Network.Ethernet Video Streaming Server1 <-> ETHERNET SWITCH
+Office Network.ETHERNET SWITCH,0,Common ST,designated_port,Office Network.Ethernet Video Streaming Server2 <-> ETHERNET SWITCH
+Office Network.ETHERNET SWITCH,0,Common ST,designated_port,Office Network.node_0 <-> ETHERNET SWITCH
+Office Network.ETHERNET SWITCH,0,Common ST,designated_port,Office Network.ETHERNET SWITCH <-> MANET GW1
+Office Network.ETHERNET SWITCH,0,Common ST,designated_port,Office Network.ETHERNET SWITCH <-> MANET GW2
